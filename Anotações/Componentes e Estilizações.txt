@@ -1,0 +1,13 @@
+Componentes e Módulos no angular:
+
+-Componente: é uma unidade reutilizável que encapsula HTML, CSS e TypeScript, podendo ser utilizado em diversas partes do projeto com sua reutilização;
+-Módulo: um módulo pode agrupar vários componentes dentro de si em blocos funcionais e independentes. Eles constroem a estrutura da aplicação;
+
+Componentes são DECLARADOS, enquanto Módulos são IMPORTADOS.
+
+Estrutura de um Componente: 1 - HTML(.html), 2 - SCSS/Estilo(.scss), 3-Teste Unitários(.spec.ts), 4-Lógica do componente(.ts) 
+
+____________________________________________________________________________________________
+
+Componentização: muitos componentes contém o mesmo layout, mudando apenas algumas propriedades mínimas como: cor, texto, etc. Para resolver esse problema, podemos solucionar 
+			      trocando essas suas propriedades de forma dinâmica.
