@@ -5,9 +5,9 @@ Componentes e Módulos no angular:
 
 Componentes são DECLARADOS, enquanto Módulos são IMPORTADOS.
 
-Estrutura de um Componente: 1 - HTML(.html), 2 - SCSS/Estilo(.scss), 3-Teste Unitários(.spec.ts), 4-Lógica do componente(.ts) 
+Estrutura de um Componente: 1 - HTML(.html), 2 - SCSS/Estilo(.scss), 3-Teste Unitários(.spec.ts), 4-Lógica do componente(.ts)
 
 ____________________________________________________________________________________________
 
 Componentização: muitos componentes contém o mesmo layout, mudando apenas algumas propriedades mínimas como: cor, texto, etc. Para resolver esse problema, podemos solucionar 
-			      trocando essas suas propriedades de forma dinâmica.
+trocando essas suas propriedades de forma dinâmica através de alguma lógica criada.
